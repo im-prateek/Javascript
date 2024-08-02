@@ -14,7 +14,7 @@ console.log("any msg to print")
 console.warn("this is warningg")
 console.error("this is an errorr")
 
-*/
+
 
 // 3. Javascript variables
 
@@ -34,10 +34,20 @@ var marks = {
 }
 console.log(marks);
 
-// var und = undefined;
+var und = undefined;
 var und;
 console.log(und);
 
 var n = null;
 console.log(n);
 
+*/
+
+
+var a=12
+var b=31
+console.log("a+b")
+
+console.log(true&&true)
+console.log(!false)
+// console.log(true!!true)
