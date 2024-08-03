@@ -41,9 +41,6 @@ console.log(und);
 var n = null;
 console.log(n);
 
-*/
-
-
 var a=12
 var b=31
 console.log("a+b")
@@ -51,3 +48,16 @@ console.log("a+b")
 console.log(true&&true)
 console.log(!false)
 // console.log(true!!true)
+
+*/
+
+function avg(a, b){
+    return (a + b)/2;
+}
+
+c1 = avg(4, 6);
+c2 = avg(12, 43);
+console.log(c1, c2);
+
+// blue color text in console means its number
+// black color text in console means its string
