@@ -49,7 +49,6 @@ console.log(true&&true)
 console.log(!false)
 // console.log(true!!true)
 
-*/
 
 function avg(a, b){
     return (a + b)/2;
@@ -61,3 +60,24 @@ console.log(c1, c2);
 
 // blue color text in console means its number
 // black color text in console means its string
+
+var age = 18;
+if (age>18){
+    console.log("you can vote");
+}
+else{
+    console.log("you cant vote");
+}
+
+*/
+
+
+var arr=[1,2,3,4,5,6,7];
+// console.log(arr);
+// for (var i=0; i<arr.length; i++){
+//     console.log(arr[i])
+// }
+
+arr.forEach(function(element){
+    console.log(element)
+})
