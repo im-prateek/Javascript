@@ -69,10 +69,8 @@ else{
     console.log("you cant vote");
 }
 
-*/
 
-
-var arr=[1,2,3,4,5,6,7];
+// var arr=[1,2,3,4,5,6,7];
 // console.log(arr);
 // for (var i=0; i<arr.length; i++){
 //     console.log(arr[i])
@@ -81,3 +79,18 @@ var arr=[1,2,3,4,5,6,7];
 arr.forEach(function(element){
     console.log(element)
 })
+
+*/
+
+// const no=1233;
+var arr=[1,2,3,4,5,6,7];
+let p=0;
+    while (p<arr.length){
+        console.log(arr[p]);
+        p++;
+}
+
+do{
+    console.log(arr[p]);
+    p++;
+}while(p<arr.length)
