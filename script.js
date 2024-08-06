@@ -80,7 +80,6 @@ arr.forEach(function(element){
     console.log(element)
 })
 
-*/
 
 // const no=1233;
 var arr=[1,2,3,4,5,6,7];
@@ -94,3 +93,18 @@ do{
     console.log(arr[p]);
     p++;
 }while(p<arr.length)
+
+*/
+
+let myarr=['fan','camera',34, null, true]
+// array method
+console.log(myarr.length);
+myarr.pop();
+myarr.push('harry');
+myarr.shift()
+
+const newlen = myarr.unshift('harry')
+console.log(newlen);
+console.log(myarr);
+
+// string methods in js
