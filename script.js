@@ -108,3 +108,6 @@ console.log(newlen);
 console.log(myarr);
 
 // string methods in js
+
+let a=12
+console.log(a)
