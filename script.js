@@ -94,7 +94,6 @@ do{
     p++;
 }while(p<arr.length)
 
-*/
 
 let myarr=['fan','camera',34, null, true]
 // array method
@@ -111,3 +110,14 @@ console.log(myarr);
 
 let a=12
 console.log(a)
+
+*/
+
+// string methods in javascript
+let mystring = 'this is my string, my';
+console.log(mystring.length)
+console.log(mystring.indexOf('my'))
+console.log(mystring.lastindexOf('my'))
+console.log(mystring.slice(1,4))
+d = mystring.replace("is","was")
+console.log(d)
