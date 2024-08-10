@@ -111,7 +111,6 @@ console.log(myarr);
 let a=12
 console.log(a)
 
-*/
 
 // string methods in javascript
 let mystring = 'this is my string, my';
@@ -121,3 +120,18 @@ console.log(mystring.lastindexOf('my'))
 console.log(mystring.slice(1,4))
 d = mystring.replace("is","was")
 console.log(d)
+
+
+let mydate= new Date();
+console.log(mydate.getTime());
+console.log(mydate.getFullYear());
+
+*/
+
+// DOM MANIPULATION
+let elem = document.getElementById('Click');
+console.log(elem);
+
+let elemclass = document.getElementsByClassName('container')
+console.log(elemclass);
+elemclass[0].style.background ='yellow'
