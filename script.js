@@ -129,9 +129,11 @@ console.log(mydate.getFullYear());
 */
 
 // DOM MANIPULATION
+
 let elem = document.getElementById('Click');
 console.log(elem);
 
 let elemclass = document.getElementsByClassName('container')
 console.log(elemclass);
 elemclass[0].style.background ='yellow'
+
