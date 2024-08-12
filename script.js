@@ -128,6 +128,8 @@ console.log(mydate.getFullYear());
 
 */
 
+
+
 // DOM MANIPULATION
 
 let elem = document.getElementById('Click');
