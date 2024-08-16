@@ -139,3 +139,10 @@ let elemclass = document.getElementsByClassName('container')
 console.log(elemclass);
 elemclass[0].style.background ='yellow'
 
+elemclass[0].classList.add("bg-primary")
+elemclass[0].classList.add("text-success")
+
+console.log(elem.innerHTML);
+console.log(elem.innerText);
+
+console.log(elemclass[0].innerText);
