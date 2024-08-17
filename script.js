@@ -126,9 +126,6 @@ let mydate= new Date();
 console.log(mydate.getTime());
 console.log(mydate.getFullYear());
 
-*/
-
-
 
 // DOM MANIPULATION
 
@@ -146,3 +143,14 @@ console.log(elem.innerHTML);
 console.log(elem.innerText);
 
 console.log(elemclass[0].innerText);
+
+*/
+
+tn=document.getElementsByTagName('div')
+console.log(tn)
+createdElement = document.createElement('p') ;
+createdElement.innertext = 'This is a created para';
+tn[0].appendChild(createdElement);
+createdElement2 = document.createElement('b');
+createdElement2.innertext = 'This is created bold';
+tn[0].replaceChild(createdElement2, createdElement);
