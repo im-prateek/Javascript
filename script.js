@@ -144,7 +144,6 @@ console.log(elem.innerText);
 
 console.log(elemclass[0].innerText);
 
-*/
 
 tn=document.getElementsByTagName('div')
 console.log(tn)
@@ -154,3 +153,38 @@ tn[0].appendChild(createdElement);
 createdElement2 = document.createElement('b');
 createdElement2.innertext = 'This is created bold';
 tn[0].replaceChild(createdElement2, createdElement);
+
+
+document.location
+document.title
+document.scripts
+document.domain
+
+
+// slecting usign query
+sel = document.querySelector('.container')
+console.log(sel)
+sel = document.querySelectorAll('.container')
+console.log(sel)
+
+function clicked(){
+    console.log('The button was clicked')
+}
+
+window.onload = function{
+    console.log('The documen was loaded')
+}
+*/
+
+// EENTS IN JACASCRIPT
+firstcontainer.addEventListener('click', function(){
+    console.log('clicked on container')
+})
+
+firstcontainer.addEventListener('mouseover', function(){
+    console.log('mouse on container')
+})
+
+firstcontainer.addEventListener('mouseout', function(){
+    console.log('mouse out of container')
+})
