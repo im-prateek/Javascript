@@ -174,9 +174,8 @@ function clicked(){
 window.onload = function{
     console.log('The documen was loaded')
 }
-*/
 
-// EENTS IN JACASCRIPT
+// EvENTS IN JACASCRIPT
 firstcontainer.addEventListener('click', function(){
     console.log('clicked on container')
 })
@@ -188,3 +187,16 @@ firstcontainer.addEventListener('mouseover', function(){
 firstcontainer.addEventListener('mouseout', function(){
     console.log('mouse out of container')
 })
+
+firstcontainer.addEventlistener('click', function(){
+    document.querySelectorAll('.container')[1].innerHtml = "<b> we have clicked </b>"
+    console.log("clicked on container")
+})
+*/
+
+let prevhtml = document.querySelectorAll('.container')[1].innerHTML;
+firstcontainer.addEventlistener('mouseup', function()){
+    document.querySelectorAll('.container')[1].innerhtml = prevhtml;
+    console.log('mouseup when clicked on container');
+})
+
