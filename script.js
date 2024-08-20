@@ -161,6 +161,7 @@ document.scripts
 document.domain
 
 
+
 // slecting usign query
 sel = document.querySelector('.container')
 console.log(sel)
@@ -192,7 +193,6 @@ firstcontainer.addEventlistener('click', function(){
     document.querySelectorAll('.container')[1].innerHtml = "<b> we have clicked </b>"
     console.log("clicked on container")
 })
-*/
 
 let prevhtml = document.querySelectorAll('.container')[1].innerHTML;
 firstcontainer.addEventlistener('mouseup', function()){
@@ -200,3 +200,5 @@ firstcontainer.addEventlistener('mouseup', function()){
     console.log('mouseup when clicked on container');
 })
 
+
+*/
