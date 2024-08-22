@@ -201,7 +201,6 @@ firstcontainer.addEventlistener('mouseup', function()){
 })
 
 
-*/
 
 // arrow function
 function sum(a, b){
@@ -219,3 +218,19 @@ logkaro = ()=>{
 settimeout(logkaro, 2000);
 // use clearinterval/cleartimeout to cancel setinterval/settimeout
 clr = setinterval(logkaro, 2000);
+
+*/
+
+localStorage.clear()
+localStorage.setItem('name', 'harry')
+localStorage.getItem('name')
+localStorage.removeItem('name')
+
+// json
+
+obj = {name: "harry", length:1, a: {this: "that"}}
+jso = json.stringify(obj);
+console.log(typeof jso)
+console.log(jso)
+parsed = json.parse(`{"name":"harry", "length":1,"a":{"this":"that"}}`)
+console.log(parsed);
