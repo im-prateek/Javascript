@@ -219,7 +219,6 @@ settimeout(logkaro, 2000);
 // use clearinterval/cleartimeout to cancel setinterval/settimeout
 clr = setinterval(logkaro, 2000);
 
-*/
 
 localStorage.clear()
 localStorage.setItem('name', 'harry')
@@ -234,3 +233,9 @@ console.log(typeof jso)
 console.log(jso)
 parsed = json.parse(`{"name":"harry", "length":1,"a":{"this":"that"}}`)
 console.log(parsed);
+
+*/
+
+// Template literal - backticks
+a=34;
+console.log(`this is my ${a}`)
